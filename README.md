@@ -10,7 +10,7 @@ This manual has been adapted from processing manual for the Stuart A. Rose Manus
 
 ## Table of contents
 
-* [01: Overview of archival processing](/01-OVERVIEW%20OF%20ARCHIVAL%20PROCESSING)
+* [01: Overview of archival processing](/01-OVERVIEW%20OF%20ARCHIVAL%20PROCESSING%20)
 * [02: Accessioning and precustodial work](/02-ACCESSIONING%20AND%20PRECUSTODIAL%20WORK)
 * [03: Collection analysis](/03-COLLECTION%20ANALYSIS)
 * [04: Levels of arrangement and description](/04-LEVELS%20OF%20ARRANGEMENT%20AND%20DESCRIPTION)
