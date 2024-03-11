@@ -22,8 +22,8 @@ Archivists process collections by applying their knowledge of professional best 
 *   Reflect the meaningful relationships that we identify between records and between records and their creators.
 *   Provide scope and content notes that indicate what a user might find in a collection, series, or file, and what might be missing or unascertainable.
 *   Focus on groupings and aggregations of materials and the relationships between them.
-*	  Focus on context rather than content.
-*	  Seek to be as transparent as possible about the actions that we take on records and the changes that we make to collections.
+*   Focus on context rather than content.
+*   Seek to be as transparent as possible about the actions that we take on records and the changes that we make to collections.
 *   Use professional training and judgment to determine appropriate levels of arrangement and description for collections.
 
 
