@@ -5,7 +5,7 @@
 * [1.2 What we do and do not do when we process](#12-what-we-do-and-do-not-do-when-we-process)
 * [1.3 How we manage restrictions](#13-how-we-manage-restrictions)
 
-* ## 1.1 What it means to process:
+## 1.1 What it means to process:
 
 
 A collection is “processed” when sufficient physical and intellectual control is imposed upon the collection by an archivist to facilitate its use. A processed collection has been at least minimally described through basic inventories and narrative description that includes administrative information, as well as contextual information about the collection.
