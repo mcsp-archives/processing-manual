@@ -22,7 +22,7 @@ Precustodial work is all work that occurs before a collection is formally transf
 
 ## 2.1 Consultations with donors and transferring entity representatives
 
-Prior to a collection or addition being transferred by the Archives, the Archivist must meet with donors and transferers to provide guidance and assistance on matters such as:
+Prior to a collection or addition being transferred by the Archives, the Director must meet with donors and transferers to provide guidance and assistance on matters such as:
 
 * Packing and shipping
 * Transfer of born digital material
@@ -30,11 +30,11 @@ Prior to a collection or addition being transferred by the Archives, the Archivi
 * Arrangement and description
 * Conservation
 
-The Archivist may elect to draft an Operational Impact Statement to assess the overall space and supply needs of a collection, as well as the cost of transfer, accessioning, processing, and storing a collection.
+The Director may elect to draft an Operational Impact Statement to assess the overall space and supply needs of a collection, as well as the cost of transfer, accessioning, processing, and storing a collection.
 
 ## 2.2 Collections receiving
 
-Collections receiving is the physical transfer of collection material from a donor or transferer to the Moravian Archives. The primary point of contact for collections receiving is the Archivist.
+Collections receiving is the physical transfer of collection material from a donor or transferer to the Moravian Archives. The primary point of contact for collections receiving is the Director.
 
 ### 2.2.1 Receipt of new or potential acquisitions
 
@@ -48,20 +48,20 @@ Upon receipt of material, the Archives staff member will:
 
 * For manuscript and archives material: Create a stub accession record in ArchivesSpace, including an accompanying custody transfer event record. If the acquisition has an accompanying signed deed of sal or gift or deed addendum at the time of receipt, the staff member will also add an agreement signed event record.
 * Log in Airtable MCSP Acquisitions base or update status of existing record in the base.
-* Place the items and any accompanying documentation in the new acquisition storage cabinet on the Lower Level for review by the Archivist. If receipt is completed by the Archivist, this step can be skipped.
-* Alert the Archivist that material is ready to be reviewed and provide location if other than new acquisition storage cabinet. The Archivist will make the final decision on whether to move forward with the acquisition.
+* Place the items and any accompanying documentation in the new acquisition storage cabinet on the Lower Level for review by the Director. If receipt is completed by the Director, this step can be skipped.
+* Alert the Director that material is ready to be reviewed and provide location if other than new acquisition storage cabinet. The Director will make the final decision on whether to move forward with the acquisition.
 
-If the Archivist decides to not move forward with an acquisition, it is the Archivist’s responsibility to notify the donor. The Archives Operations Coordinator can help coordinate return of the material once the donor has been notified by the Archivist.
+If the Director decides to not move forward with an acquisition, it is the Director’s responsibility to notify the donor. The Archives Operations Coordinator can help coordinate return of the material once the donor has been notified by the Director.
 
 ### 2.2.2 Paperwork
 
-No collection material may be cataloged or accessioned until the appropriate paperwork has been received. All original paperwork should be transferred to the Archivist.
+No collection material may be cataloged or accessioned until the appropriate paperwork has been received. All original paperwork should be transferred to the Director.
 
 #### Managing paperwork in OneDrive/SharePoint
 
 Archives staff stores and manages all acquisitions-related paperwork on OneDrive. OneDrive allows staff to access shared folders and communicate with one another inside the application, creating and maintaining a record of communications for each acquisition.
 
-There are two OneDrive folders that we use to manage this process. These can be found in the MCSP Archives document library under Collection Development and include the Gifts-in-Kind folder and the Transfers folder. As new collections move through the acquisitions process, the Archivist will update the files and move or update the paperwork as needed. As paperwork moves through the process, the Archivist will use the share function in OneDrive to update Archives staff about the status of the acquisition or to alert someone when an action is required.
+There are two OneDrive folders that we use to manage this process. These can be found in the MCSP Archives document library under Collection Development and include the Gifts-in-Kind folder and the Transfers folder. As new collections move through the acquisitions process, the Director will update the files and move or update the paperwork as needed. As paperwork moves through the process, the Director will use the share function in OneDrive to update Archives staff about the status of the acquisition or to alert someone when an action is required.
 
 #### Paperwork required for Gifts-in-Kind
 
@@ -81,17 +81,17 @@ _All gifts must be accompanied by a Deed of Gift or Deed Addendum in order to be
 
 #### Managing Gifts-in-Kind paperwork in OneDrive/SharePoint
 
-The Archives manages Gifts-in-Kind paperwork on OneDrive/SharePoint through the Gifts-in-Kind folder. The Archivist is responsible for uploading paperwork to the folder and communicating with appropriate parties for next steps. The gifts process includes the following steps:
+The Archives manages Gifts-in-Kind paperwork on OneDrive/SharePoint through the Gifts-in-Kind folder. The Director is responsible for uploading paperwork to the folder and communicating with appropriate parties for next steps. The gifts process includes the following steps:
 
 1.	Archives staff uploads any preliminary paperwork for acquisitions received. This could include appraisal reports or notes detailing conversations and negotiations with donors.
   a.	If multiple file formats are uploaded and cannot be combined (e.g., a Microsoft Word document and a Microsoft Excel spreadsheet), a new folder should be created using the following name convention: “Donor Name_Calendar Year Received,” such as “John Doe_2016.”
   b.	If a single file is uploaded, it should be titled using the same naming convention.
-2.	The Archives staff member in communication with the donor drafts the appropriate deed and facilitates signatures by both the donor and the Archivist. All deeds must be signed by the Archivist.
-3.	Once the deed is completed, it should be transferred to the Archivist to file and upload to OneDrive.
-4.	Once uploaded, the Archivist will notify the Archives Operations Coordinator to create an acknowledgment letter, which will also be signed by the Archivist and a copy uploaded to OneDrive to become part of the collection file.
+2.	The Archives staff member in communication with the donor drafts the appropriate deed and facilitates signatures by both the donor and the Director. All deeds must be signed by the Director.
+3.	Once the deed is completed, it should be transferred to the Director to file and upload to OneDrive.
+4.	Once uploaded, the Director will notify the Archives Operations Coordinator to create an acknowledgment letter, which will also be signed by the Director and a copy uploaded to OneDrive to become part of the collection file.
 5.	When the Archives Operations Coordinator sends the acknowledgement letter, a copy of the counter-signed deed should also be included.
 
-At the end of the calendar year, the Archivist moves all completed paperwork in the Gifts-in-Kind folder to the Past Gifts folder into a new subfolder for that calendar year.
+At the end of the calendar year, the Director moves all completed paperwork in the Gifts-in-Kind folder to the Past Gifts folder into a new subfolder for that calendar year.
 
 The Archives does not accept unsolicited gifts and the Archives Operations Coordinator should return all such items to the sender with a letter explaining this policy with contact information to discuss the donation with staff.
 
@@ -99,16 +99,16 @@ The Archives does not accept unsolicited gifts and the Archives Operations Coord
 
 _All transfers must be accompanied by a Records Transfer Form in order to be added to the collection._
 
-The Archives manages transfer paperwork on OneDrive/SharePoint through the Transfers folder. The Archivist is responsible for uploading paperwork to the folder and communicating with appropriate parties for next steps. The transfer process includes the following steps:
+The Archives manages transfer paperwork on OneDrive/SharePoint through the Transfers folder. The Director is responsible for uploading paperwork to the folder and communicating with appropriate parties for next steps. The transfer process includes the following steps:
 
 1.	Archives staff uploads any preliminary paperwork for acquisitions received. This could include notes detailing conversations and negotiations with transferring entities.
 a.	If multiple file formats are uploaded and cannot be combined (e.g., a Microsoft Word document and a Microsoft Excel spreadsheet), a new folder should be created using the following name convention: “Transferring Entity_Calendar Year Received,” such as “Commission on Congregational Development_2016.”
 b.	If a single file is uploaded, it should be titled using the same naming convention.
-2.	The Archives staff member in communication with the representative of the transferring entity drafts the Records Transfer Form and facilitates signatures by both the representative and the Archivist. All Records Transfer forms must be signed by the Archivist.
-3.	Once the transfer form is completed, it should be given to the Archivist to file and upload to OneDrive.
-4.	Once uploaded, the Archivist will notify the Archives Operations Coordinator to send a copy of the countersigned form to the representative of the transferring entity.
+2.	The Archives staff member in communication with the representative of the transferring entity drafts the Records Transfer Form and facilitates signatures by both the representative and the Director. All Records Transfer forms must be signed by the Director.
+3.	Once the transfer form is completed, it should be given to the Director to file and upload to OneDrive.
+4.	Once uploaded, the Director will notify the Archives Operations Coordinator to send a copy of the countersigned form to the representative of the transferring entity.
 
-At the end of the calendar year, the Archivist moves all completed paperwork in the Transfers folder to the Past Transfers folder into a new subfolder for that calendar year.
+At the end of the calendar year, the Director moves all completed paperwork in the Transfers folder to the Past Transfers folder into a new subfolder for that calendar year.
 
 ### 2.2.3 Financial appraisal
 
@@ -148,4 +148,4 @@ Determine the appropriate level of processing at the time of accessioning and th
 
 *Footnotes:*
 
-<a id="anchor1">[1]</a> Archival Accessioning Best Practices, Society of American Archivists, Forthcoming, 2024.
+<a id="anchor1">[1]</a> [Archival Accessioning Best Practices](https://accessioning.gitbook.io/archival-accessioning-best-practices), Society of American Archivists, 2024.
