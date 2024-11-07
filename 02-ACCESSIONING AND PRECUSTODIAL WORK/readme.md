@@ -183,19 +183,20 @@ Fields in ArchivesSpace marked with a red asterisk are required by ArchivesSpace
 
 #### Basic information sub-record - required
 
-| Field             | Description                                      |
-| ----------------- | ------------------------------------------------ |
-| Title - required  | Assign a title for the accession. For new 
-                      collections, titles should include both a name 
-                      segment and the nature of the material being 
-                      described. The title should be formed according 
-                      to the rules outlined in the Description section 
-                      of this manual. For additions, the title should 
-                      include the collection title and the word 
-                      “additions.” If additions are a single item or 
-                      record type, the title can include that information
-                      (e.g., J. Kenneth Pfohl audiovisual additions).
-| ----------------- | ------------------------------------------------- |
+| Field             | Description                                        |
+| :---------------- | :------------------------------------------------- |
+| Title - required  | Assign a title for the accession. For new          |
+|                   | collections, titles should include both a name     |
+|                   | segment and the nature of the material being       |
+|                   | described. The title should be formed according    | 
+|                   | to the rules outlined in the Description           |
+|                   | section of this manual. For additions, the         |
+|                   | title should include the collection title and      | 
+|                   | the word “additions.” If additions are a single    |
+|                   | item or record type, the title can include that    |
+|                   | information (e.g., J. Kenneth Pfohl audiovisual    |
+|                   | additions).                                        |
+| ----------------- | -------------------------------------------------- |
 
 ### 2.3.3 Accessioning digital objects
 
