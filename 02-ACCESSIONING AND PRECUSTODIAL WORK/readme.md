@@ -414,7 +414,7 @@ We have six primary stacks locations:
       * A significant portion of our periodicals are held on ranges 17-A through 18-A instead of with the rare book collection.
 * Vault Rare Books Stacks
       * Ranges 1L-2L contain material owned and administered by the Moravian Music Foundation
- 	    * Ranges 3L-10L contain material owned and administered by the MCSP Archives
+      * Ranges 3L-10L contain material owned and administered by the MCSP Archives
       * Only the items on 3L and 10L have been cataloged. They are shelved according to the Dewey Decimal classification system.
       * Range 8L contains periodicals not housed on the manuscript and archives side of the Vault
       * Range 9L contains the Daily Text and the Bible collection
