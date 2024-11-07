@@ -134,7 +134,68 @@ Determine the appropriate level of processing at the time of accessioning and th
 
 ### 2.3.1 Managing accessioning workflow
 
+*Note: This workflow will be fully implemented in 2025. Collection material received prior to 2025 will be accessioned in ArchivesSpace but may not follow the current process.*
+
+When material has been documented and is ready to be accessioned, the Director will share this with other staff responsible for processing. During the monthly staff meeting, the Director will provide updates on pending and new collections. The electronic version of the paperwork will be linked to from the accession record in ArchivesSpace in the External Documents sub-record.
+
+The system of record for accession information is ArchivesSpace. The Director will create a record in this database upon receipt. One accession record should be created per acquisition, meaning there should be one record for each deed/deed addendum or transfer form.
+
+#### When manuscript and archives material is received, the Director will:
+
+ * Create a basic accession record in ArchivesSpace
+ * Assign the accession number, as well as complete any field for which they have information, according to the guidelines in the Archives Accession Record Field Usage Guidelines.
+ * Document physical receipt of the material in an event record attached to the accession record.
+   * Type is equal to "custody transfer"
+   * The role of the person linked as an agent is "recipient"
+   * Date is the date the event record is created
+* Document completion of paperwork in an event record attached to the accession record
+   * Type is equal to "agreement signed"
+   * The role of the donor or represntative of the transferring entity who signed the paperwork linked as an agent is "authorizer"
+   * Date is the date of the signing, found on the paperwork
+* If portions of the same accession are being added to multiple collections, in Disposition field of the Basic Information sub-record, describe the disposition of each portion; provide a brief description of the material and the title of the collection to which it is being added.
+* Add or update the status of the acquisition in the MCSP Acquisitions Airtable base
+* Add the location of the material to the Pending tab in the shelf list
+
+#### At the time of accessioning, staff will:
+
+*	Update and complete any fields in the accession record that the Director could not complete during receipt, according to the Archives Accession Record Field Usage Guidelines.
+*	Create an event record attached to the accession record to document that the collection has been accessioned.
+   * Type is equal to “accession”
+ 	 * The role of the staff member linked as an agent is “accessioner”
+   * Date is the date the event record is created
+*	If creating a new collection, assign a new manuscript number by taking the next number in sequence in the shelf list.
+*	Link to an existing resource record for additions to collections or spawn a new resource record for new collections and complete the form according to the Archives Resource Record Field Usage Guidelines for stub resource records.
+*	Print any needed documentation from OneDrive using the external documents link in the accession record and combine with any physical documentation in hand to add to or create the physical collection file. Write the accession number on the deed or transfer form.
+*	Process the material at whichever level is deemed appropriate and create description according to the policies and procedures outlined in the Moravian Archives Processing Manual.
+*	Update the status of the acquisition in the MCSP Acquisitions Airtable base.
+
+The below instructions explain how to make accession records from start to finish. However, please note that most staff will not be creating any records from scratch. Navigate to the part of the instructions applicable to your piece of the workflow.
+
 ### 2.3.2 Creation of the accession record
+
+Browse accessions and sort by identifier to see the most recent accession number, so that you may assign the next number in sequence.
+
+To create the accession record, click on Create and select Accession.
+
+Fields in ArchivesSpace marked with a red asterisk are required by ArchivesSpace. The Moravian Archives requires additional information for a record to be considered complete.
+
+#### Populating the accession record
+
+#### Basic information sub-record - required
+
+| Field             | Description                                      |
+| ----------------- | ------------------------------------------------ |
+| Title - required  | Assign a title for the accession. For new 
+                      collections, titles should include both a name 
+                      segment and the nature of the material being 
+                      described. The title should be formed according 
+                      to the rules outlined in the Description section 
+                      of this manual. For additions, the title should 
+                      include the collection title and the word 
+                      “additions.” If additions are a single item or 
+                      record type, the title can include that information
+                      (e.g., J. Kenneth Pfohl audiovisual additions).
+| ----------------- | ------------------------------------------------- |
 
 ### 2.3.3 Accessioning digital objects
 
