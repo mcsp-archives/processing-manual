@@ -406,29 +406,29 @@ While the intellectual arrangement for these collections has changed to be prove
 We have six primary stacks locations:
 
 *	Research Library on Level 1 of the Archive K. Davis Center
-     	* Ranges are referred to as 1RL, 2RL, etc.
- 	    * This collection contains material owned and administered by both the Moravian Music Foundation and the MCSP Archives. Items are interfiled and shelved according to the Library of Congress classification system. Items with the code “mmf” after the call number belong to the Moravian Music Foundation and items with the code “mas” after the call number belong to the MCSP Archives.
+      *	Ranges are referred to as 1RL, 2RL, etc.
+      *	This collection contains material owned and administered by both the Moravian Music Foundation and the MCSP Archives. Items are interfiled and shelved according to the Library of Congress classification system. Items with the code “mmf” after the call number belong to the Moravian Music Foundation and items with the code “mas” after the call number belong to the MCSP Archives.
 *	Vault Manuscript and Archives Stacks
       *	Ranges 1-6 contain material owned and administered by the Moravian Music Foundation
-      * Ranges 7-24 contain material owned and administered by the MCSP Archives. Most of these ranges contain fully processed collections.
-      * A significant portion of our periodicals are held on ranges 17-A through 18-A instead of with the rare book collection.
-* Vault Rare Books Stacks
-      * Ranges 1L-2L contain material owned and administered by the Moravian Music Foundation
-      * Ranges 3L-10L contain material owned and administered by the MCSP Archives
-      * Only the items on 3L and 10L have been cataloged. They are shelved according to the Dewey Decimal classification system.
-      * Range 8L contains periodicals not housed on the manuscript and archives side of the Vault
-      * Range 9L contains the Daily Text and the Bible collection
-      * Range 10L contains hymnals and liturgical texts
-* Vault Temporary/Processing Stacks
-      * Ranges 16 and 20-24 of the manuscript and archives side of the Vault are currently housing unprocessed manuscript and archives collection material
-      * Range 6L and 7L of the rare book side of the Vault are currently housing unprocessed manuscript and archives collection material
+      *	Ranges 7-24 contain material owned and administered by the MCSP Archives. Most of these ranges contain fully processed collections.
+      *	A significant portion of our periodicals are held on ranges 17-A through 18-A instead of with the rare book collection.
+*	Vault Rare Books Stacks
+      *	Ranges 1L-2L contain material owned and administered by the Moravian Music Foundation
+      *	Ranges 3L-10L contain material owned and administered by the MCSP Archives
+      *	Only the items on 3L and 10L have been cataloged. They are shelved according to the Dewey Decimal classification system.
+      *	Range 8L contains periodicals not housed on the manuscript and archives side of the Vault
+      *	Range 9L contains the Daily Text and the Bible collection
+      *	Range 10L contains hymnals and liturgical texts
+*	Vault Temporary/Processing Stacks
+      *	Ranges 16 and 20-24 of the manuscript and archives side of the Vault are currently housing unprocessed manuscript and archives collection material
+      *	Range 6L and 7L of the rare book side of the Vault are currently housing unprocessed manuscript and archives collection material
 *	Vault AV and photographic material room
-      * On the manuscript and archives side of the Vault, near range 12, there is a door to a room inside the Vault. This room houses photographic material, artwork, and audiovisual material held by both the Moravian Music Foundation and the MCSP Archives
+      *	On the manuscript and archives side of the Vault, near range 12, there is a door to a room inside the Vault. This room houses photographic material, artwork, and audiovisual material held by both the Moravian Music Foundation and the MCSP Archives
 *	Vault Map files
-      * There are five map files at the entrance of the Vault. One contains material held by the Moravian Music Foundation. MCSP Archives owns and administers the contents of the other four, identified as Map File A, B, C, and D.
-      * Not everything in the map file is a map – often this is where oversized material of all file types can be found.
-      * Maps that are not oversized can also be found in the map files
-      * Maps that are too large to fit in the map files are stored on range 23 on the manuscript and archives side of the Vault
+      *	There are five map files at the entrance of the Vault. One contains material held by the Moravian Music Foundation. MCSP Archives owns and administers the contents of the other four, identified as Map File A, B, C, and D.
+      *	Not everything in the map file is a map – often this is where oversized material of all file types can be found.
+      *	Maps that are not oversized can also be found in the map files
+      *	Maps that are too large to fit in the map files are stored on range 23 on the manuscript and archives side of the Vault
 
 We communicate stack locations by giving a range and bay for an item:
 
