@@ -9,11 +9,15 @@
 * [2.3 Accessioning](#23-accessioning)
   * [2.3.1 Managing accessioning workflow](#231-managing-accessioning-workflow)
   * [2.3.2 Creation of the accession record](#232-creation-of-the-accession-record)
-  * [2.3.3 Accessioning digital objects](#233-accessioning-digital-objects)
+  * [2.3.3 Accessioning digital hardware and periphreals](#233-accessioning-digital-hardware-and-periphreals)
   * [2.3.4 Digital accessioning workflows](#234-digital-accessioning-workflows)
   * [2.3.5 Creating the collection file](#235-creating-the-collection-file)
   * [2.3.6 Accessioning checklist](#236-accessioning-checklist)
-
+* [2.4 Stacks management](#24-stacks-management)
+  * [2.4.1 Stack locations](#241-stack-locations)
+  * [2.4.2 Shelf lists](#242-shelf-lists)
+  * [2.4.3 Empty space map](#243-empty-space-map)
+  * [2.4.4 Lost items](#244-lost-items)
 
 
 ## Overview
@@ -181,13 +185,13 @@ Fields in ArchivesSpace marked with a red asterisk are required by ArchivesSpace
 
 #### Populating the accession record
 
-#### Basic information sub-record - required
+#### Basic information sub-record - Required
 
-| Field                           | Description                                                  |
-| :------------------------------ | :----------------------------------------------------------- |
-| Title - required      | Assign a title for the accession. For new collections, titles should include both a name segment and the nature of the material being described. The title should be formed according to the rules outlined in the Description section of this manual. For additions, the title should include the collection title and the word “additions.” If additions are a single item or record type, the title can include that information (e.g., J. Kenneth Pfohl audiovisual additions).|
-| Identifier - required | All collection material acquired by the MCSP Archives is assigned a unique accession number, consisting of the year, the month, and the next accession number in sequence for the month (e.g., 2017-06-34).|
-| Accession Date - required | This field will auto-populate with the current date. This date should always match the day the accession record was originally created and the accession number assigned. The date of the formal accessioning process is recorded in an event record. |
+| Field                                     | Description                                                            |
+| :---------------------------------------- | :--------------------------------------------------------------------- |
+| Title - Required      | Assign a title for the accession. For new collections, titles should include both a name segment and the nature of the material being described. The title should be formed according to the rules outlined in the Description section of this manual. For additions, the title should include the collection title and the word “additions.” If additions are a single item or record type, the title can include that information (e.g., J. Kenneth Pfohl audiovisual additions).|
+| Identifier - Required | All collection material acquired by the MCSP Archives is assigned a unique accession number, consisting of the year, the month, and the next accession number in sequence for the month (e.g., 2017-06-34).|
+| Accession Date - Required | This field will auto-populate with the current date. This date should always match the day the accession record was originally created and the accession number assigned. The date of the formal accessioning process is recorded in an event record. |
 | Publish | MCSP Archives does not publish accession records. This box should not be checked. |
 | Content Description - Required | Include a brief description of the scope and contents of the collection. |
 | Condition Description - Required if applicable | Use this field to describe preservation issues in the collection (e.g., mold, water damage, insect presence, etc.) or current organization of the collection.|
@@ -210,13 +214,13 @@ Fields in ArchivesSpace marked with a red asterisk are required by ArchivesSpace
 
 Because a significant portion of records at the MCSP Archives is written in a language other than English, primarily German, the Archives prefers for the Languages sub-record to be completed if it is obvious that the accession contains material in a language other than English. Click the “Add language” button to add languages of the material in addition to or instead of English. Add a “Language Note” to describe approximately what portion of the accession is written in each language added.
 
-#### Dates sub-record - required
+#### Dates sub-record - Required
 
 All accession records require at least one dates sub-record. Add separate sub-records for each type of date being described (e.g., inclusive and bulk dates). More than one dates sub-record should be rare in accession records. To add a date sub-record, click the “Add Date” button in the right corner of the sub-record.
 
-| Field                           | Description                                                  |
-| :------------------------------ | :----------------------------------------------------------- |
-| Label - required | Defaults to "Creation" |
+| Field                                     | Description                                                            |
+| :---------------------------------------- | :--------------------------------------------------------------------- |
+| Label - Required | Defaults to "Creation" |
 | Expression - Do Not Use | Expression is only used to describe dates when normalized dates are not present or if the expressed dates differ from the normalized dates. In accession records, the normalized date is preferred. |
 | Type - Required | Select from the dropdown menu as appropriate. Use bulk dates for the range in which the bulk of the material in the accession was created. Use inclusive dates for the date range in which the entirety of the accession was created. Use a single day for the date of a single item or single year in which all material in the accession was created. |
 | Begin and End ("Normalization") - Required | Enter the beginning and ending dates of the accession. Years are sufficient for most accessions. |
@@ -224,19 +228,225 @@ All accession records require at least one dates sub-record. Add separate sub-re
 | Era - Required | Defaults to "ce." |
 | Calendar - Required | Defaults to "Gregorian" |
 
-#### Extents sub-record - required
+#### Extents sub-record - Required
 
 All accession records require an extents sub-record. To add an extent record, click the "Add Extent" button in the right corner of the sub-record.
 
+| Field                                     | Description                                                            |
+| :---------------------------------------- | :--------------------------------------------------------------------- |
+| Portion - Required | Select “part” or “whole” from the dropdown menu as appropriate. Choose “whole” when the accession is the entirety of the acquisition. Choose “part” when the accession includes multiple formats (e.g., paper and born digital), and you will create multiple extent sub-records. |
+| Number - Required | Enter the number of items you’re measuring. |
+| Type - Required | Select from the dropdown menu as appropriate. For accessions, this will most likely be linear feet, items, or item. |
+| Container Summary - Required | Use this field to describe the type of containers in which the accession is stored. This is especially helpful if the material is oversized or stored in unusual containers. |
+| Physical Details - Optional | Use this field for any additional pertinent details describing the physical state of the collection. |
+| Dimensions - Optional | Use this field to note the physical dimensions of the accession. Use of this field will be rare for accessions. |
 
+#### Agent links sub-record - Required
 
-### 2.3.3 Accessioning digital objects
+An agent is a person, corporate body, family, or software responsible in some way for the creation or management of a described resource or the subject of that resource. Add an agent record for both the source and the creator of the accession, even if they are the same. Agent records for curators and archivists responsible for the accession will be added to event records.
+
+See Creating an Agent Record in ArchivesSpace.
+
+#### Related resources sub-record - Required
+
+All accession records must be linked to a resource record. When accessioning a new collection, resource records will be spawned from the accession record and automatically linked. See Creating a Resource Record in ArchivesSpace for spawning instructions.
+
+When accessioning additions to a collection, add a related resources sub-record. Click “Add Related Resource” in the right corner of the sub-record.
+
+Type the title or portion of the title into the search box and select the correct collection from the menu.
+
+#### Component links sub-record - Do Not Use
+
+Skip this sub-record. We will only add components to resource records.
+
+#### Related accessions sub-record - Preferred When Applicable
+
+This subrecord links related accessions. It should be used only when material that is acquired together is accessioned into different collections and not linked to the same resource record. For example, use this record when multiple collections are created out of one acquisition from a single donor or when a single donor sends additions to multiple collections. Do not link accessions for artificial collections.
+
+To link a related accession, click the “Add Related Accession” button in the right corner.
+
+From the “Relationship Type” dropdown menu, select “Part of” to indicate that material has been acquired as part of a larger whole.
+
+*	From the “This accession” dropdown menu, choose “Forms part of” or “Has part”
+*	Type the title into the “Accession” search box and select the correct accession record
+*	“Relator stype defaults to “Part”
+
+The easiest way to link accessions is to create the record for the first accession and then link to that record from this sub-record on any subsequent accessions. Choose “forms part of” when completing the subsequent accessions. The links will also appear on the original record with “has part” appearing under “this accession.”
+
+You should never have to select “sibling” as a relationship type. The sibling relationship is for linking accession records of accruals to the same collection. The Archives will be tracking those relationships in the resource record and not the accession record. If you identify a possible exception, discuss with the Director, and we will decide as a group if sibling is the correct relationship type. If it is, then complete the sub-record as follows:
+
+*	“This accession” will pre-populate with “Is sibling of”
+*	Type the title into the “Accession” search box and select the correct accession record
+*	Relator type defaults to “Bound with relstionship”
+
+#### Subjects sub-record - Do Not Use
+
+Skip this sub-record. We will only add subject terms to resource records.
+
+#### External documents sub-record - Required
+
+Use this field to relevant external documentation, such as inventories, deeds, appraisal reports, and other acquisition paperwork. Link to the relevant acquisition paperwork on OneDrive/SharePoint. To create an external documents sub-record, click “Add External Document” in the right corner of the sub-record.
+
+| Field                                     | Description                                                            |
+| :---------------------------------------- | :--------------------------------------------------------------------- |
+| Title - Required | Copy the title of the document from OneDrive/SharePoint |
+| Location - Required | In OneDrive, click the three dots next to a file title in a folder listing. Click “Copy link.” This will grab a link only viewable by people with access to the MCSP Archives document library. Paste that link to this field in ArchivesSpace. |
+| Publish - Required | Should default to de-select but check to be sure. |
+
+#### Rights statements sub-record - Do Not Use
+
+Skip this sub-record. We will only add rights statements to resource records.
+
+#### Metadata rights declaration sub-record - Do Not Use
+
+Skip this sub-record. We will only add metadata rights declarations to resource records.
+
+#### Instances sub-record - Do Not Use
+
+Skip this sub-record. We will only add instances to resource records.
+
+#### Deaccessions sub-record - Required When Applicable
+
+Add a deaccessions sub-record to record deaccessions contemporaneous to the accession. To create a deaccessions sub-record, click “Add Deaccession” in the upper right corner.
+
+| Field                                     | Description                                                            |
+| :---------------------------------------- | :--------------------------------------------------------------------- |
+| Portion - Required | Select part or whole from the dropdown menu as appropriate. |
+| Description - Required | Free text field. Describe the material being deaccessioned. |
+| Reason - Required | Free text field. Record the reason for the deaccession. |
+| Disposition - Required | Free text field. Record the disposition of the material (e.g., shredded, returned, transferred, etc.) |
+| Notification Given? - Required if applicable | Check the box if applicable |
+| Deaccession Date - Required | Label should be “Deaccession.” Complete the rest of the Deaccession Date sub-record according to the rules established for the Dates sub-record. |
+| Extent - Required | Record the extent of the deaccessioned material according to the rules established for the Extent sub-record. |
+
+#### Collection management sub-record - Optional
+
+Use this field to record internal information about processing the material. Use of this sub-record will be rare. It is likely most useful during accessioning when describing plans for processed collections with unprocessed additions.
+
+#### Classifications sub-record - Do Not Use
+
+Skip this sub-record. It is not applicable to MCSP Archives special collections material.
+
+#### User defined fields sub-record - Do Not Use
+
+Skip this sub-record. At the time of writing, MCSP Archives is not using any user defined fields.
+
+#### Finalizing the record
+
+When you have finished filling out the accession record, press the Save button. At this point, you may spawn a resource record for new collections, as well as add event records to the accession record as needed. Record the accession number on the paperwork and file in the physical collection file.
+
+### 2.3.3 Accessioning digital hardware and peripherals
+
+*Forthcoming*
 
 ### 2.3.4 Digital accessioning workflows
 
+*Forthcoming*
+
+#### Digital archives controlled vocabulary
+
+*Forthcoming*
+
 ### 2.3.5 Creating the collection file
 
+The permanent collection files document the history of a collection, including solicitation, acquisition, processing, and later communications with the donor or transferring entity. They will contain paperwork, such as deeds of gift and records transfer forms, as well as supporting documentation, such as donor correspondence, paper inventories, and acknowledgment letters.
+
+When we receive a new collection, the staff member accessioning the material is responsible for communicating with the Director, who will create the collection file. The collection file’s label should include the collection title and collection number. The files are stored numerically by collection number.
+
+If you pull a collection file from the cabinet for longer than a business day, you must complete an “out” card with the collection title, your name, and the date. When you return the file, remove the out card and add the date you returned it. One might pull a file while accessioning an addition, processing a collection, or to assist a researcher. Much of the information contained in the collection file is sensitive, and the files are considered confidential. Biographical information, restrictions, rights information, summary collection histories, and inventories may be shared with researchers if appropriate.
+
 ### 2.3.6 Accessioning checklist
+
+*	Create or update accession record
+*	Write accession number on the acquisitions paperwork
+*	Create or update the collection file
+*	Arrange and re-house collection material
+*	New collections:
+   * Create finding aid in a Word document
+   * Request review of new finding aids from staff; revise once feedback is received
+   * Enter finding aid data from the Word document to a new resource record in ArchivesSpace
+   * Create container list in Airtable, export to CSV, and import to resource record in ArchivesSpace
+   * Update containers in ArchivesSpace with container profile and location information
+*	For additions to collections, update the resource record in ArchivesSpace (do not update the Word document version of the finding aid)
+*	Create or update catalog record
+*	Label and barcode container(s)
+*	Add barcodes to top container(s) in ArchivesSpace
+*	If material includes audiovisual material…
+*	If material includes born digital material…
+*	If there are websites related to the collection that we should track as part of our web archiving program…
+*	Flag materials separated from the collection for cataloging and place on the appropriate range in the Vault
+*	Move containers to permanent physical location(s)
+*	Update the processing statistics table in the Airtable MCSP Statistics base
+*	Update the record for the accession in the Airtable MCSP Acquisitions base
+*	Update the Stacks Space Map
+*	Announce the availability of new collections or significant additions on the #collections Slack channel
+*	Inform donors and/or creators that new collections are now open
+
+## 2.4 Stacks management
+
+The Director is responsible for maintaining the physical spaces where collection material is housed, primarily in the Vault but also in the Research Library on Level 1 of the Archie K. Davis Center. The Director will periodically conduct inventories of these spaces and maintain documentation related to collection storage space.
+
+### 2.4.1 Stack locations
+
+Prior to 2024, manuscript and archives collections were accessed and stored using the following schema:
+
+*	Letter files
+*	Pre-20th century records (includes church records, provincial agency records, some personal collections, and artificial collections)
+*	Memoirs
+*	Church registers
+*	20th century agency records
+*	20th century church records
+*	21st century church records
+*	21st century agency records
+*	Periodicals
+*	Personal collections
+
+While the intellectual arrangement for these collections has changed to be provenance-based (i.e., Pre-20th century, 20th century, and 21st century records for Bethabara Moravian Church are all part of one collection), the physical arrangement has remained largely intact. For the oldest provincial agencies and churches in the Province, you would likely need to retrieve boxes from three different physical locations to pull the entire collection. ArchivesSpace is the system of record for stacks locations for containers. Please refer to location information in that system when searching for a particular box.
+
+We have six primary stacks locations:
+
+*	Research Library on Level 1 of the Archive K. Davis Center
+     	* Ranges are referred to as 1RL, 2RL, etc.
+ 	    * This collection contains material owned and administered by both the Moravian Music Foundation and the MCSP Archives. Items are interfiled and shelved according to the Library of Congress classification system. Items with the code “mmf” after the call number belong to the Moravian Music Foundation and items with the code “mas” after the call number belong to the MCSP Archives.
+*	Vault Manuscript and Archives Stacks
+      *	Ranges 1-6 contain material owned and administered by the Moravian Music Foundation
+      * Ranges 7-24 contain material owned and administered by the MCSP Archives. Most of these ranges contain fully processed collections.
+      * A significant portion of our periodicals are held on ranges 17-A through 18-A instead of with the rare book collection.
+* Vault Rare Books Stacks
+      * Ranges 1L-2L contain material owned and administered by the Moravian Music Foundation
+      * Ranges 3L-10L contain material owned and administered by the MCSP Archives
+      * Only the items on 3L and 10L have been cataloged. They are shelved according to the Dewey Decimal classification system.
+      * Range 8L contains periodicals not housed on the manuscript and archives side of the Vault
+      * Range 9L contains the Daily Text and the Bible collection
+      * Range 10L contains hymnals and liturgical texts
+*	Vault Temporary/Processing Stacks
+      * Ranges 16 and 20-24 of the manuscript and archives side of the Vault are currently housing unprocessed manuscript and archives collection material
+      * Range 6L and 7L of the rare book side of the Vault are currently housing unprocessed manuscript and archives collection material
+*	Vault AV and photographic material room
+      * On the manuscript and archives side of the Vault, near range 12, there is a door to a room inside the Vault. This room houses photographic material, artwork, and audiovisual material held by both the Moravian Music Foundation and the MCSP Archives
+*	Vault Map files
+      * There are five map files at the entrance of the Vault. One contains material held by the Moravian Music Foundation. MCSP Archives owns and administers the contents of the other four, identified as Map File A, B, C, and D.
+      * Not everything in the map file is a map – often this is where oversized material of all file types can be found.
+      * Maps that are not oversized can also be found in the map files
+      * Maps that are too large to fit in the map files are stored on range 23 on the manuscript and archives side of the Vault
+
+We communicate stack locations by giving a range and bay for an item:
+
+*	Ranges are one side of an aisle. These are numbered. 1 refers to range 1 on the manuscript and archives side of the Vault. 1L refers to range 1 on the rare books side of the Vault. 1RL refers to range 1 in the Research Library.
+*	Bays are sections of shelving within the range. The bays receive alphabetical designations. When you are looking at a range the A bay will be on your left and proceed through the alphabet to your right. Always read bays left to right when you face them. Start the alphabet over for each range.
+*	Shelves are the individual shelves within a bay.
+
+### 2.4.2 Shelf lists
+
+The system of record for container locations is ArchivesSpace. However, there is also a shelf list table in the Airtable MCSP Collections base that automatically updates with locations and extents for each collection as that information is updated in the containers table of the same base. To locate the entirety of a collection at a glance, this is the fastest method. ArchivesSpace will always be more accurate.
+
+### 2.4.3 Empty space map
+
+ArchivesSpace also tracks empty space. However, it can sometimes be easier to visualize empty space on a map. MCSP Archives maintains a map of empty space in our stacks locations. It should be updated any time collection material is moved to, from, or around in the Vault or the Research Library. The Director will periodically verify the document to ensure that it is up-to-date.
+
+### 2.4.4 Lost items
+
+*Forthcoming*
 
 ---
 
