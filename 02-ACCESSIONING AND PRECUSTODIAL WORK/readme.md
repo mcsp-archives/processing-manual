@@ -183,11 +183,52 @@ Fields in ArchivesSpace marked with a red asterisk are required by ArchivesSpace
 
 #### Basic information sub-record - required
 
-| Field             | Description                                        
-| :---------------- | :------------------------------------------------- |
-| Title - required  | Assign a title for the accession. For new collections, titles should include both a name segment and the nature of the material being described. The title should be formed according to the rules outlined in the Description section of this manual. For additions, the title should include the collection title and the word “additions.” If additions are a single item or record type, the title can include that information (e.g., J. Kenneth Pfohl audiovisual additions).|
+| Field                           | Description                                                  |
+| :------------------------------ | :----------------------------------------------------------- |
+| Title - required      | Assign a title for the accession. For new collections, titles should include both a name segment and the nature of the material being described. The title should be formed according to the rules outlined in the Description section of this manual. For additions, the title should include the collection title and the word “additions.” If additions are a single item or record type, the title can include that information (e.g., J. Kenneth Pfohl audiovisual additions).|
+| Identifier - required | All collection material acquired by the MCSP Archives is assigned a unique accession number, consisting of the year, the month, and the next accession number in sequence for the month (e.g., 2017-06-34).|
+| Accession Date - required | This field will auto-populate with the current date. This date should always match the day the accession record was originally created and the accession number assigned. The date of the formal accessioning process is recorded in an event record. |
+| Publish | MCSP Archives does not publish accession records. This box should not be checked. |
+| Content Description - Required | Include a brief description of the scope and contents of the collection. |
+| Condition Description - Required if applicable | Use this field to describe preservation issues in the collection (e.g., mold, water damage, insect presence, etc.) or current organization of the collection.|
+|Disposition - Required if applicable | Use this field to describe portions of the same accession with different disposition. List the items and correspondence collections in this field. |
+| Inventory - Required if applicable | Use this field to transcribe any existing inventories, such as those provided by the donor or created during packing. Use this field only if the inventory is not in a document that can be linked in the External Documents sub-record. |
+|Provenance - Required if applicable | Use this field to describe the provenance and custodial history of an accession. Required if there is additional provenance relevant to a specific accession that is different from the provenance of the rest of the collection. Required when the source of the material is different from the creator of the material. |
+| Retention Rule - Required if applicable | Use this field to record any records management retention rules that apply to the accession. Most likely to be used for church and provincial agency records. |
+| General Note - Optional | Use this field to provide any other information relevant to the accession that isn’t accounted for elsewhere in the record. |
+| Acquisition Type - Required | Select the appropriate acquisition type from the dropdown menu. Select “gift” if the material is from an individual on behalf of themselves or another individual. Select “transfer” if the material is from an entity in the Moravian Church in America, Southern Province, or an individual representing such an entity. |
+| Resource Type - Required | Select the appropriate resource type from the dropdown menu. Type should broadly conform to the rules established in DACS Chapter 2.3.18. Resource type may be broader than Title Statement, though they are related. |
+| Language of Description | Auto populates to “English” and should remain as such. For language of material see the Languages sub-record. |
+| Script of Description | Auto populates to “Latin” and should remain as such. |
+| Restrictions apply? - Required when applicable | Check box if either use or access restrictions are present in the accession. |
+| Access Restrictions? - Required when applicable | If any portion of the accession is restricted from access, check this box. |
+| Access Restrictions Note - Required when applicable | Describe the access restriction here. If this field is in use, it must include a termination date. |
+| Use Restrictions? - Required when applicable | If any portion of the accession is restricted from certain kinds of use, check this box. |
+| Use Restrictions Note - Required when applicable | Describe the use restriction here. |
 
-| ----------------- | -------------------------------------------------- |
+#### Languages sub-record - preferred when applicable
+
+Because a significant portion of records at the MCSP Archives is written in a language other than English, primarily German, the Archives prefers for the Languages sub-record to be completed if it is obvious that the accession contains material in a language other than English. Click the “Add language” button to add languages of the material in addition to or instead of English. Add a “Language Note” to describe approximately what portion of the accession is written in each language added.
+
+#### Dates sub-record - required
+
+All accession records require at least one dates sub-record. Add separate sub-records for each type of date being described (e.g., inclusive and bulk dates). More than one dates sub-record should be rare in accession records. To add a date sub-record, click the “Add Date” button in the right corner of the sub-record.
+
+| Field                           | Description                                                  |
+| :------------------------------ | :----------------------------------------------------------- |
+| Label - required | Defaults to "Creation" |
+| Expression - Do Not Use | Expression is only used to describe dates when normalized dates are not present or if the expressed dates differ from the normalized dates. In accession records, the normalized date is preferred. |
+| Type - Required | Select from the dropdown menu as appropriate. Use bulk dates for the range in which the bulk of the material in the accession was created. Use inclusive dates for the date range in which the entirety of the accession was created. Use a single day for the date of a single item or single year in which all material in the accession was created. |
+| Begin and End ("Normalization") - Required | Enter the beginning and ending dates of the accession. Years are sufficient for most accessions. |
+| Certainty - Required if applicable | If you are uncertain about the accuracy of the dates, select “approximate” from the dropdown menu. Otherwise, leave blank. |
+| Era - Required | Defaults to "ce." |
+| Calendar - Required | Defaults to "Gregorian" |
+
+#### Extents sub-record - required
+
+All accession records require an extents sub-record. To add an extent record, click the "Add Extent" button in the right corner of the sub-record.
+
+
 
 ### 2.3.3 Accessioning digital objects
 
